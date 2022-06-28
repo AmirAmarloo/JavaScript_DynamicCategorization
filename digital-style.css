@@ -1,0 +1,162 @@
+
+body {
+    background-color: #7d7e7b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------------------------------*/
+/*--------------- Navbar ----------------*/
+nav.navbar {
+    background-image: linear-gradient(90deg, rgba(114,0,173,1) 0%, rgba(197,250,0,1) 100%);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+div.navbar-brand {
+    height: 45px;
+}
+
+div.navbar-brand img {
+    width: 30px;
+    height: 25px; 
+    /* fill: var(--color-icon-high-emphasis) */
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block; /* displaying the dropdown-menues by hover */
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none; /* disappearing the dropdown-menues by pointer-event */
+}
+
+div.CategoryNav{
+    background-color: #c5c5da;
+    width: 100wh;
+    height: 1200px;
+    position: relative;
+    margin-top: 45px;
+}
+#procTitle{
+    margin-left: 0;
+    align-content: center;
+    padding: 10px;
+    color: #C5FA00;
+}
+.navBox1{
+    background-color: red;
+    width: 200px;
+    height: 480px;            
+    position: absolute;
+    margin-left: 15px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+.navBox2{
+    background-color: darkcyan;
+    width: 55vw;
+    height: 480px;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+    left: 215px;
+}
+.navBox1item {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(254, 255, 246);
+    background-color: rgb(15, 15, 15);
+    height: 120px;
+    border: 1px solid rgb(88, 88, 88)
+}
+
+.navBox1item a:link, .navBox1item a:visited {
+    color: aliceblue;
+}
+
+li.nav-item div.dropdown button.btn {
+    background-color: #4c4c49;
+    text-shadow: 2px 2px grey;
+    margin-right: 10px;
+}
+
+div.navBox2 div {
+    /* width: 27vw; */
+    border: 2px solid white;
+    background-color: darkblue;
+    color: white;
+}
+
+
+/*---------------------------------------*/
+/*--------------- Carosel -----------------*/
+.carousel-item img {
+    height: 400px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    align-self: center;
+    border: 4px ridge rgb(221, 218, 217);
+
+}
+
+/*---------------------------------------*/
+/*--------------- Body -----------------*/
+
+/* #mainbody {
+    width: 100%;
+    height: 80vh;
+} */
+
+#products {
+    color: #dccdca;
+}
+
+/*---------------------------------------*/
+/*--------------- Products -----------------*/
+div.CategoryNav {
+    overflow: auto;
+    display: inline;
+}
+
+div.card img.card-img-top {
+    height: 240px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+} 
+div.card {
+    background-color: transparent;
+    border-radius: 5%;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.26);
+}
+
+div.card div.card-body {
+    text-align: center;
+}
+
+/*---------------------------------------*/
+/*--------------- Footer -----------------*/
+
+footer div.container {
+    border-top: 1px solid #b7b7b7;
+    color: #7200AD;
+}
+
+footer span {
+    width: 100%;
+    color: #7200AD;
+    background-color: #C5FA00;
+    text-align: center;
+    border-top: 1px solid #b7b7b7;
+}
+
